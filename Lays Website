@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lays shop website</title>
+    <!-- links to css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- box icon-->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!--header-->
+    <header>
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="">
+        <h1>chips</h1>
+        </div>
+        <nav>
+            <a href="#chips">chips</a>
+            <a href="#" class="btn">Contact us</a>
+    </header>
+    <!-- home -->
+    <section id="home">
+        <div class="home-text">
+            <h1>feel inside cold with <br>our delicious <span>chips</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+            <a href="#">
+                <i class='bx bxs-cart-add'></i>
+                Add to cart
+            </a>
+        </div>
+        <!-- home image -->
+        <div class="home-image">
+            <img src="lays2.jpg" alt="">
+
+        </div>
+    
+    </section>
+    <!-- services -->
+    <section id="services">
+        <div class="heading">
+            <h2>services</h2>
+            <h1>millions of people use</h1>
+        </div>
+        <div class="services-box">
+            <div class="box">
+                <img src="lays3.jpg" alt="">
+                <h1>free shipping</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+            </div>
+        </div>
+            <div class="box active">
+                <img src="lays1.jpg" alt="">
+                <h1>24/7 hour support</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+            </div>
+                <div class="box">
+                    <img src="lays2.jpg" alt="">
+                    <h1>100% moneyback</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+                </div>
+    </section>
+    <!-- product -->
+    <section id="product">
+        <div class="product-headind">
+            <h1>anything you need to <br>get startted</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+        </div>
+        <div class="product-container">
+            <div class="product-box">
+                <h1>popular product</h1>
+                <div class="p-text">
+                    <img src="lays3.jpg" alt="">
+                    <div class="p-text">
+                    <h2>chips</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+                </div>
+                </div>
+                <div class="p-text">
+                    <img src="lays2.jpg" alt="">
+                    <div class="p-text">
+                    <h2>chips</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br>elit. Nullam suscipit, libero non commodo suscipit, odio velit finibus risus, id feugiat lorem lectus sit amet ante. Etiam fermentum mi id urna volutpat vestibulum. Fusce ac orci quis elit fringilla condimentum. Morbi dapibus lacus sed ante malesuada, vel rutrum sem congue.</p>
+                    
+
+                </div>
+                </div>
+            </div>
+            <!-- images -->
+            <div class="product-img">
+                <img src="model.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+        <div class="contact-us">
+            <h1>want to know about <br>connect with us</h1>
+            <a href="#" class="btn">contact us</a>
+        </div>
+    </section>
+    <!-- copyright -->
+    <div class="copyright">
+        <p>&#169; crapoolvenom all right reserved</p>
+    </div>
+</body>
+</html>
